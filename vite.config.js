@@ -6,8 +6,8 @@ dns.setDefaultResultOrder('verbatim')
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base:'/vite-init/',
   server:{
-    port:3000,
-    
+    port:3000, 
   }
 })
